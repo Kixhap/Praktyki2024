@@ -1,47 +1,51 @@
 import React, { useEffect, useState } from 'react';
+import { fetchItems, postItem, deleteItem, editItem, putItem } from './API';
 
-const Dashboard = () => {
+const Dashboard = ({ credentials }) => {
   const [items, setItems] = useState([]);
   const [error, setError] = useState(null);
-  const [newItem, setNewItem] = useState({ name: '', price: '' });
+  const [newItem, setNewItem] = useState({ id: '', name: '', price: '' });
   const [editingItem, setEditingItem] = useState(null);
+  const [isPutMethod, setIsPutMethod] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(true); // Track authentication status
 
-  const fetchItems = () => {
-    fetch('https://localhost:7217/api/items')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`Failed to fetch items: ${response.statusText}`);
-        }
-        return response.json();
+  useEffect(() => {
+    loadItems();
+  }, [credentials]);
+
+  const loadItems = () => {
+    fetchItems(credentials)
+      .then(data => {
+        setItems(data);
+        setError(null);
+        setIsAuthenticated(true); // Set authenticated status to true on successful fetch
       })
-      .then(data => setItems(data))
       .catch(error => {
         console.error('Fetch items failed:', error);
         setError(error.message);
+        setIsAuthenticated(false); // Set authenticated status to false on error
       });
   };
 
-  useEffect(() => {
-    fetchItems();
-  }, []);
-
   const handleAddItem = () => {
-    fetch('https://localhost:7217/api/items', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(newItem),
-    })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`Failed to add item: ${response.statusText}`);
-        }
-        return response.json();
-      })
+    if (isPutMethod && !newItem.id) {
+      setError('ID is required for PUT method');
+      return;
+    }
+
+    const addOrUpdateItem = isPutMethod ? putItem : postItem;
+
+    const itemToSend = isPutMethod 
+      ? newItem 
+      : { name: newItem.name, price: newItem.price };
+
+    addOrUpdateItem(itemToSend, credentials)
       .then(data => {
-        setItems([...items, data]);
-        setNewItem({ name: '', price: '' });
+        if (data) {
+          setItems([...items, data]);
+        }
+        setNewItem({ id: '', name: '', price: '' });
+        loadItems();
       })
       .catch(error => {
         console.error('Add item failed:', error);
@@ -50,15 +54,7 @@ const Dashboard = () => {
   };
 
   const handleDeleteItem = (id) => {
-    fetch(`https://localhost:7217/api/items/${id}`, {
-      method: 'DELETE',
-    })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`Failed to delete item: ${response.statusText}`);
-        }
-        return response.text(); // Oczekuj na odpowiedź tekstową
-      })
+    deleteItem(id, credentials)
       .then(() => {
         setItems(items.filter(item => item.id !== id));
       })
@@ -66,6 +62,11 @@ const Dashboard = () => {
         console.error('Delete item failed:', error);
         setError(error.message);
       });
+  };
+
+  const startEditingItem = (item) => {
+    setEditingItem(item);
+    setError(null);
   };
 
   const handleEditItem = () => {
@@ -80,66 +81,60 @@ const Dashboard = () => {
       price: editingItem.price
     };
 
-    fetch(`https://localhost:7217/api/items/${editingItem.id}`, {
-      method: 'PUT',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(updatedItem),
+    editItem(updatedItem, credentials)
+    .then((updatedData) => {
+      setItems(items.map(item => (item.id === updatedData.id ? updatedData : item)));
+      setEditingItem(null);
+      loadItems();
     })
-      .then(response => {
-        console.log('Response status:', response.status); // Debugging
-        console.log('Response headers:', response.headers); // Debugging
-        return response.text(); // Read response as text first
-      })
-      .then(text => {
-        console.log('Response text:', text); // Debugging
-        if (!text) {
-          // If response is empty, just update the list without data
-          setItems(items.map(item => (item.id === updatedItem.id ? updatedItem : item)));
-          setEditingItem(null);
-        } else {
-          // Otherwise, parse the response as JSON
-          try {
-            const data = JSON.parse(text);
-            setItems(items.map(item => (item.id === data.id ? data : item)));
-            setEditingItem(null);
-          } catch (e) {
-            setError('Error parsing JSON response');
-            console.error('Error parsing JSON:', e);
-          }
-        }
-      })
-      .catch(error => {
-        console.error('Edit item failed:', error);
-        setError(error.message);
-      });
-  };
+    .catch(error => {
+      console.error('Edit item failed:', error);
+      setError(error.message);
+    });
+  }  
 
   return (
     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
       <div>
         <h2>Dashboard</h2>
-        {error ? (
-          <p style={{ color: 'red' }}>Error: {error}</p>
-        ) : (
-          <div>
-            <button onClick={fetchItems}>Odśwież listę</button>
-            <ul style={{ textAlign: 'left' }}>
-              {items.map(item => (
-                <li key={item.id}>
-                  ID: {item.id} - {item.name} - {item.price} PLN
-                  <button onClick={() => handleDeleteItem(item.id)}>Usuń</button>
-                  <button onClick={() => setEditingItem(item)}>Edytuj</button>
-                </li>
-              ))}
-            </ul>
-          </div>
+        {!isAuthenticated && (
+          <p style={{ color: 'red' }}>You are not logged in. Please log in to access the items.</p>
         )}
+        <button onClick={loadItems}>Odśwież listę</button>
+        {error && (
+          <p style={{ color: 'red' }}>Error: {error}</p>
+        )}
+        <div>
+          <ul style={{ textAlign: 'left' }}>
+            {items.map(item => (
+              <li key={item.id}>
+                ID: {item.id} - {item.name} - {item.price} PLN
+                <button onClick={() => handleDeleteItem(item.id)}>Usuń</button>
+                <button onClick={() => startEditingItem(item)}>Edytuj</button>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
 
       <div style={{ marginLeft: '20px' }}>
         <h3>Dodaj nowy element</h3>
+        <label>
+          <input
+            type="checkbox"
+            checked={isPutMethod}
+            onChange={() => setIsPutMethod(!isPutMethod)}
+          />
+          Użyj metody PUT
+        </label>
+        {isPutMethod && (
+          <input
+            type="text"
+            placeholder="ID"
+            value={newItem.id}
+            onChange={(e) => setNewItem({ ...newItem, id: e.target.value })}
+          />
+        )}
         <input
           type="text"
           placeholder="Nazwa"
@@ -152,7 +147,9 @@ const Dashboard = () => {
           value={newItem.price}
           onChange={(e) => setNewItem({ ...newItem, price: e.target.value })}
         />
-        <button onClick={handleAddItem}>Dodaj</button>
+        <button onClick={handleAddItem}>
+          {isPutMethod ? 'Zaktualizuj lub Dodaj (PUT)' : 'Dodaj (POST)'}
+        </button>
       </div>
 
       {editingItem && (
@@ -162,7 +159,8 @@ const Dashboard = () => {
             type="text"
             placeholder='ID'
             value={editingItem.id || ''}
-            onChange={(e) => setEditingItem({...editingItem, id: e.target.value })}
+            onChange={(e) => setEditingItem({ ...editingItem, id: e.target.value })}
+            disabled
           />
           <input
             type="text"

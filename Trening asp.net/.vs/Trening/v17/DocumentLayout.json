@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projekty\\praktyki\\Trening asp.net\\",
+  "WorkspaceRootPath": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|d:\\projekty\\praktyki\\trening asp.net\\trening\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|solutionrelative:trening\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|d:\\projekty\\praktyki\\praktyki2024\\trening asp.net\\trening\\authentication\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|solutionrelative:trening\\authentication\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|d:\\projekty\\praktyki\\trening asp.net\\trening\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|solutionrelative:trening\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|d:\\projekty\\praktyki\\trening asp.net\\trening\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|solutionrelative:trening\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|d:\\projekty\\praktyki\\trening asp.net\\trening\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|d:\\projekty\\praktyki\\praktyki2024\\trening asp.net\\trening\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|solutionrelative:trening\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|d:\\projekty\\praktyki\\trening asp.net\\trening\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|solutionrelative:trening\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|d:\\projekty\\praktyki\\praktyki2024\\trening asp.net\\trening\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|solutionrelative:trening\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|d:\\projekty\\praktyki\\praktyki2024\\trening asp.net\\trening\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|solutionrelative:trening\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BasicAuthenticationHandler.cs",
+              "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Authentication\\BasicAuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "Trening\\Authentication\\BasicAuthenticationHandler.cs",
+              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Authentication\\BasicAuthenticationHandler.cs",
+              "RelativeToolTip": "Trening\\Authentication\\BasicAuthenticationHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T10:46:16.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\Program.cs",
+              "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Program.cs",
               "RelativeDocumentMoniker": "Trening\\Program.cs",
-              "ToolTip": "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\Program.cs",
+              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Program.cs",
               "RelativeToolTip": "Trening\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T07:59:59.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\appsettings.json",
+              "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\appsettings.json",
               "RelativeDocumentMoniker": "Trening\\appsettings.json",
-              "ToolTip": "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\appsettings.json",
+              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\appsettings.json",
               "RelativeToolTip": "Trening\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-07T08:17:04.852Z"
+              "WhenOpened": "2024-08-07T08:17:04.852Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Trening\\Models\\AppDbContext.cs",
-              "ToolTip": "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "Trening\\Models\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T08:16:19.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Item.cs",
-              "DocumentMoniker": "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\Models\\Item.cs",
-              "RelativeDocumentMoniker": "Trening\\Models\\Item.cs",
-              "ToolTip": "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\Models\\Item.cs",
-              "RelativeToolTip": "Trening\\Models\\Item.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T08:09:04.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ValuesController.cs",
-              "DocumentMoniker": "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\Controllers\\ValuesController.cs",
+              "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "Trening\\Controllers\\ValuesController.cs",
-              "ToolTip": "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\Controllers\\ValuesController.cs",
+              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Controllers\\ValuesController.cs",
               "RelativeToolTip": "Trening\\Controllers\\ValuesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T08:03:09.002Z"
+              "WhenOpened": "2024-08-07T08:03:09.002Z",
+              "EditorCaption": ""
             }
           ]
         }

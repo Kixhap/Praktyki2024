@@ -7,11 +7,12 @@ const Login = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (username === 'admin' && password === 'admin1') {
-      onLogin();
-    } else {
-      setError('Invalid username or password');
+    if (!username || !password) {
+      setError('Username and password are required');
+      return;
     }
+    const credentials = btoa(`${username}:${password}`);  // Encode to base64
+    onLogin(credentials);  // Pass the encoded credentials to the Dashboard
   };
 
   return (

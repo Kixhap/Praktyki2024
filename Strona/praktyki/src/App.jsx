@@ -3,15 +3,21 @@ import Login from './Login';
 import Dashboard from './Dashboard';
 
 function App() {
+  const [credentials, setCredentials] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  const handleLogin = () => {
+  const handleLogin = (encodedCredentials) => {
+    setCredentials(encodedCredentials);
     setIsLoggedIn(true);
   };
 
   return (
     <div className="App">
-      {isLoggedIn ? <Dashboard /> : <Login onLogin={handleLogin} />}
+      {isLoggedIn ? (
+        <Dashboard credentials={credentials} />
+      ) : (
+        <Login onLogin={handleLogin} />
+      )}
     </div>
   );
 }

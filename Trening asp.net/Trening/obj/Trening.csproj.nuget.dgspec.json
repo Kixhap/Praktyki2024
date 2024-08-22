@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\Trening.csproj": {}
+    "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Trening.csproj": {}
   },
   "projects": {
-    "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\Trening.csproj": {
+    "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Trening.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\Trening.csproj",
+        "projectUniqueName": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Trening.csproj",
         "projectName": "Trening",
-        "projectPath": "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\Trening.csproj",
+        "projectPath": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Trening.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekty\\praktyki\\Trening asp.net\\Trening\\obj\\",
+        "outputPath": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,17 +52,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
