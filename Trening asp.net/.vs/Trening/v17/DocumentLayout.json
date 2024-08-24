@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|solutionrelative:trening\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|d:\\projekty\\praktyki\\praktyki2024\\trening asp.net\\trening\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|solutionrelative:trening\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|d:\\projekty\\praktyki\\praktyki2024\\trening asp.net\\trening\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|solutionrelative:trening\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|d:\\projekty\\praktyki\\praktyki2024\\trening asp.net\\trening\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B49BB6-DEA8-4E70-96F8-C4F17CD401E7}|Trening\\Trening.csproj|solutionrelative:trening\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,27 +40,26 @@
               "RelativeDocumentMoniker": "Trening\\Authentication\\BasicAuthenticationHandler.cs",
               "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Authentication\\BasicAuthenticationHandler.cs",
               "RelativeToolTip": "Trening\\Authentication\\BasicAuthenticationHandler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T10:46:16.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Program.cs",
               "RelativeDocumentMoniker": "Trening\\Program.cs",
               "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Program.cs",
               "RelativeToolTip": "Trening\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAABxAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T07:59:59.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T07:59:59.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\appsettings.json",
               "RelativeDocumentMoniker": "Trening\\appsettings.json",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Trening\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-07T08:17:04.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T08:17:04.852Z"
             },
             {
               "$type": "Document",
@@ -79,10 +77,9 @@
               "RelativeDocumentMoniker": "Trening\\Controllers\\ValuesController.cs",
               "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Trening asp.net\\Trening\\Controllers\\ValuesController.cs",
               "RelativeToolTip": "Trening\\Controllers\\ValuesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T08:03:09.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T08:03:09.002Z"
             }
           ]
         }

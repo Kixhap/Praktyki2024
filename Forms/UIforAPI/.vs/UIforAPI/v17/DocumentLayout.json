@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|d:\\projekty\\praktyki\\praktyki2024\\forms\\uiforapi\\uiforapi\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|solutionrelative:uiforapi\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|d:\\projekty\\praktyki\\praktyki2024\\forms\\uiforapi\\uiforapi\\viewmodels\\itemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|solutionrelative:uiforapi\\viewmodels\\itemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|d:\\projekty\\praktyki\\praktyki2024\\forms\\uiforapi\\uiforapi\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|solutionrelative:uiforapi\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|d:\\projekty\\praktyki\\praktyki2024\\forms\\uiforapi\\uiforapi\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|solutionrelative:uiforapi\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|d:\\projekty\\praktyki\\praktyki2024\\forms\\uiforapi\\uiforapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|solutionrelative:uiforapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|d:\\projekty\\praktyki\\praktyki2024\\forms\\uiforapi\\uiforapi\\commands\\relaycommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|solutionrelative:uiforapi\\commands\\relaycommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|d:\\projekty\\praktyki\\praktyki2024\\forms\\uiforapi\\uiforapi\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|solutionrelative:uiforapi\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|d:\\projekty\\praktyki\\praktyki2024\\forms\\uiforapi\\uiforapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76820447-495A-4D14-B96B-7133BC4455A2}|UIforAPI\\UIforAPI.csproj|solutionrelative:uiforapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "UIforAPI\\MainForm.Designer.cs",
+              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\MainForm.Designer.cs",
+              "RelativeToolTip": "UIforAPI\\MainForm.Designer.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAYwKsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T16:11:51.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemViewModel.cs",
+              "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\ViewModels\\ItemViewModel.cs",
+              "RelativeDocumentMoniker": "UIforAPI\\ViewModels\\ItemViewModel.cs",
+              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\ViewModels\\ItemViewModel.cs",
+              "RelativeToolTip": "UIforAPI\\ViewModels\\ItemViewModel.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAkwD0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T09:33:50.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RelayCommands.cs",
+              "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\Commands\\RelayCommands.cs",
+              "RelativeDocumentMoniker": "UIforAPI\\Commands\\RelayCommands.cs",
+              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\Commands\\RelayCommands.cs",
+              "RelativeToolTip": "UIforAPI\\Commands\\RelayCommands.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T09:49:10.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "UIforAPI\\Models\\Item.cs",
+              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\Models\\Item.cs",
+              "RelativeToolTip": "UIforAPI\\Models\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T09:47:31.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\MainForm.cs",
+              "RelativeDocumentMoniker": "UIforAPI\\MainForm.cs",
+              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\MainForm.cs",
+              "RelativeToolTip": "UIforAPI\\MainForm.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAUwE0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T09:45:12.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Projekt]",
+              "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\MainForm.cs",
+              "RelativeDocumentMoniker": "UIforAPI\\MainForm.cs",
+              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\MainForm.cs [Projekt]",
+              "RelativeToolTip": "UIforAPI\\MainForm.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T16:17:51.297Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\Program.cs",
+              "RelativeDocumentMoniker": "UIforAPI\\Program.cs",
+              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\Program.cs",
+              "RelativeToolTip": "UIforAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T14:57:44.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ObservableObject.cs",
+              "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\ObservableObject.cs",
+              "RelativeDocumentMoniker": "UIforAPI\\ObservableObject.cs",
+              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\ObservableObject.cs",
+              "RelativeToolTip": "UIforAPI\\ObservableObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T09:36:30.818Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
