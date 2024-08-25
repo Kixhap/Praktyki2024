@@ -71,7 +71,6 @@ namespace UIforAPI
                 {
                     await _itemViewModel.DeleteItemAsync((int)selectedItem.Id);
 
-                    // Clear input fields after deletion
                     idBox.Clear();
                     nameBox.Clear();
                     priceBox.Clear();

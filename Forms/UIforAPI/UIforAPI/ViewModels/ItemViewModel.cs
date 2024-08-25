@@ -42,6 +42,29 @@ namespace UIforAPI.ViewModels
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", authToken);
             _isAuthenticated = true;
         }
+        public async Task<bool> ValidateCredentialsAsync()
+        {
+            try
+            {
+                var response = await _httpClient.GetAsync("items");
+                if (response.IsSuccessStatusCode)
+                {
+                    var responseContent = await response.Content.ReadAsStringAsync();
+                    var items = JsonConvert.DeserializeObject<List<Item>>(responseContent);
+                    Items.Clear();
+                    foreach (var item in items)
+                    {
+                        Items.Add(item);
+                    }
+                    return true;
+                }
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            return false;
+        }
 
         public async Task LoadItemsAsync()
         {

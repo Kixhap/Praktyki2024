@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-using System;
-using System.Windows.Forms;
-using UIforAPI.ViewModels;
-using UIforAPI;
+﻿using UIforAPI.ViewModels;
 
 namespace UIforAPI
 {
@@ -25,19 +12,27 @@ namespace UIforAPI
             _itemViewModel = itemViewModel;
         }
 
-        private void loginButton_Click(object sender, EventArgs e)
+        private async void loginButton_Click(object sender, EventArgs e)
         {
             string username = usernameTextBox.Text;
             string password = passwordTextBox.Text;
 
-            // Set credentials in the ViewModel
             _itemViewModel.SetCredentials(username, password);
 
-            // Open the main form after successful login
-            var mainForm = new MainForm(_itemViewModel);
-            mainForm.Show();
-            this.Hide();  // Hide the login form
+            bool isValid = await _itemViewModel.ValidateCredentialsAsync();
+
+            if (isValid)
+            {
+                var mainForm = new MainForm(_itemViewModel);
+                mainForm.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Wrong username or password. Please try again.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
     }
 }
 
