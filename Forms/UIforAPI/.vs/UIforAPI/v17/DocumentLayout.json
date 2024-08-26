@@ -66,8 +66,7 @@
               "RelativeToolTip": "UIforAPI\\Models\\Item.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T09:47:31.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T09:47:31.938Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "UIforAPI\\MainForm.Designer.cs",
               "ViewState": "AQIAAHgAAAAAAAAAAAAYwKsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T16:11:51.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T16:11:51.803Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "UIforAPI\\ViewModels\\ItemViewModel.cs",
               "ViewState": "AQIAABcAAAAAAAAAAIA7wD0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T09:33:50.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T09:33:50.689Z"
             },
             {
               "$type": "Document",
@@ -105,8 +102,7 @@
               "RelativeToolTip": "UIforAPI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T14:57:44.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T14:57:44.187Z"
             },
             {
               "$type": "Document",
@@ -136,14 +132,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LoginForm.cs [Projekt]",
+              "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\LoginForm.cs",
               "RelativeDocumentMoniker": "UIforAPI\\LoginForm.cs",
-              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\LoginForm.cs [Projekt]",
-              "RelativeToolTip": "UIforAPI\\LoginForm.cs [Projekt]",
+              "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\LoginForm.cs [Design]",
+              "RelativeToolTip": "UIforAPI\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T22:54:35.728Z",
-              "EditorCaption": " [Projekt]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -167,8 +163,7 @@
               "ToolTip": "D:\\Projekty\\praktyki\\Praktyki2024\\Forms\\UIforAPI\\UIforAPI\\MainForm.cs [Projekt]",
               "RelativeToolTip": "UIforAPI\\MainForm.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T16:17:51.297Z",
-              "EditorCaption": " [Projekt]"
+              "WhenOpened": "2024-08-24T16:17:51.297Z"
             },
             {
               "$type": "Document",
