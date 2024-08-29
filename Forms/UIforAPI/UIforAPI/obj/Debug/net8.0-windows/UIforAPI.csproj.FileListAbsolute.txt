@@ -20,3 +20,5 @@ D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\UIforAPI\obj\Debug\net8.0-windo
 D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\UIforAPI\obj\Debug\net8.0-windows\UIforAPI.MainForm.resources
 D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\UIforAPI\obj\Debug\net8.0-windows\UIforAPI.csproj.Up2Date
 D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\UIforAPI\obj\Debug\net8.0-windows\UIforAPI.Properties.Resources.resources
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\UIforAPI\bin\Debug\net8.0-windows\ClassLibrary.dll
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\UIforAPI\bin\Debug\net8.0-windows\ClassLibrary.pdb

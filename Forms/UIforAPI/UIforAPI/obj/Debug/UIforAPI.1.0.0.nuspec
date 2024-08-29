@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UIforAPI</id>
+    <version>1.0.0</version>
+    <authors>UIforAPI</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="7c37be908790caba32d4b13531348b7e61f3bd99" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\UIforAPI\bin\Debug\net8.0-windows\UIforAPI.runtimeconfig.json" target="lib\net8.0-windows7.0\UIforAPI.runtimeconfig.json" />
+    <file src="D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\UIforAPI\bin\Debug\net8.0-windows\UIforAPI.dll" target="lib\net8.0-windows7.0\UIforAPI.dll" />
+  </files>
+</package>

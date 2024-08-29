@@ -1,6 +1,6 @@
 using System;
 using System.Windows.Forms;
-using UIforAPI.ViewModels;
+using ClassLibrary.ViewModels;
 
 namespace UIforAPI
 {

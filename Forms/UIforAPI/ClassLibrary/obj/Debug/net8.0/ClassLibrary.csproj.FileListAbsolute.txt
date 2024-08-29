@@ -1,0 +1,13 @@
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\ClassLibrary\bin\Debug\net8.0\ClassLibrary.deps.json
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\ClassLibrary\bin\Debug\net8.0\ClassLibrary.dll
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\ClassLibrary\bin\Debug\net8.0\ClassLibrary.pdb
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\ClassLibrary\obj\Debug\net8.0\ClassLibrary.csproj.AssemblyReference.cache
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\ClassLibrary\obj\Debug\net8.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\ClassLibrary\obj\Debug\net8.0\ClassLibrary.AssemblyInfoInputs.cache
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\ClassLibrary\obj\Debug\net8.0\ClassLibrary.AssemblyInfo.cs
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\ClassLibrary\obj\Debug\net8.0\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\ClassLibrary\obj\Debug\net8.0\ClassLibrary.sourcelink.json
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\ClassLibrary\obj\Debug\net8.0\ClassLibrary.dll
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\ClassLibrary\obj\Debug\net8.0\refint\ClassLibrary.dll
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\ClassLibrary\obj\Debug\net8.0\ClassLibrary.pdb
+D:\Projekty\praktyki\Praktyki2024\Forms\UIforAPI\ClassLibrary\obj\Debug\net8.0\ref\ClassLibrary.dll

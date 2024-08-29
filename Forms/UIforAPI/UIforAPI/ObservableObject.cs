@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace UIforAPI
+namespace UIforAPI.ViewModels
 {
     public class ObservableObject : INotifyPropertyChanged
     {
@@ -21,4 +21,3 @@ namespace UIforAPI
         }
     }
 }
-
