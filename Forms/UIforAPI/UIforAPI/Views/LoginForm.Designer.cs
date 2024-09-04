@@ -72,6 +72,7 @@
             // 
             // LoginForm
             // 
+            this.AcceptButton = loginButton;
             this.ClientSize = new System.Drawing.Size(284, 161);
             this.Controls.Add(this.passwordLabel);
             this.Controls.Add(this.usernameLabel);

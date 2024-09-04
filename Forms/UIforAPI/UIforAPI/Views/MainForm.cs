@@ -14,6 +14,7 @@ namespace UIforAPI
             InitializeComponent();
             _itemViewModel = itemViewModel;
             this.Shown += async (sender, e) => await _itemViewModel.LoadItemsAsync();
+            RefreshItemsListView();
         }
 
         private async void addButton_Click(object sender, EventArgs e)
@@ -22,7 +23,6 @@ namespace UIforAPI
             {
                 Name = nameBox.Text,
                 Price = decimal.TryParse(priceBox.Text, out var price) ? price : 0,
-                Id = string.IsNullOrWhiteSpace(idBox.Text) ? (int?)null : int.TryParse(idBox.Text, out var id) ? id : (int?)null,
             };
 
             await _itemViewModel.AddItemAsync(newItem);

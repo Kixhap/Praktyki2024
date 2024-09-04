@@ -24,12 +24,12 @@ namespace Trening.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Item>> PostItem(int id, Item item)
+        public async Task<ActionResult<Item>> PostItem(Item item)
         {
             _context.Items.Add(item);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return item;
         }
 
         [HttpGet("{id}")]

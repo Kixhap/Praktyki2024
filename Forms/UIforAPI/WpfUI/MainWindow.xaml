@@ -16,10 +16,10 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,10">
-            <TextBox x:Name="idBox" Width="50" Margin="0,0,10,0"/>
+            <TextBox x:Name="idBox" Width="50" Margin="0,0,10,0" IsReadOnly="True"/>
             <TextBox x:Name="nameBox" Width="150" Margin="0,0,10,0"/>
             <TextBox x:Name="priceBox" Width="100" Margin="0,0,10,0"/>
-            <Button Content="Add" Click="addButton_Click" Margin="0,0,10,0"/>
+            <Button Content="Add" Click="addButton_Click" Margin="0,0,10,0" IsDefault="True"/>
             <Button Content="Update" Click="updateButton_Click" Margin="0,0,10,0"/>
             <Button Content="Delete" Click="deleteButton_Click" Margin="0,0,10,0"/>
             <Button Content="Refresh" Click="refreshButton_Click"/>

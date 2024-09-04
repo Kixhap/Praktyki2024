@@ -46,7 +46,7 @@
             addButton.Location = new Point(12, 335);
             addButton.Name = "addButton";
             addButton.Size = new Size(157, 36);
-            addButton.TabIndex = 0;
+            addButton.TabIndex = 5;
             addButton.Text = "Add";
             addButton.UseVisualStyleBackColor = true;
             addButton.Click += addButton_Click;
@@ -56,7 +56,7 @@
             updateButton.Location = new Point(175, 335);
             updateButton.Name = "updateButton";
             updateButton.Size = new Size(145, 36);
-            updateButton.TabIndex = 1;
+            updateButton.TabIndex = 6;
             updateButton.Text = "Update";
             updateButton.UseVisualStyleBackColor = true;
             updateButton.Click += updateButton_Click;
@@ -66,7 +66,7 @@
             deleteButton.Location = new Point(245, 377);
             deleteButton.Name = "deleteButton";
             deleteButton.Size = new Size(75, 36);
-            deleteButton.TabIndex = 2;
+            deleteButton.TabIndex = 7;
             deleteButton.Text = "Delete";
             deleteButton.UseVisualStyleBackColor = true;
             deleteButton.Click += deleteButton_Click;
@@ -76,7 +76,7 @@
             nameBox.Location = new Point(78, 291);
             nameBox.Name = "nameBox";
             nameBox.Size = new Size(171, 27);
-            nameBox.TabIndex = 5;
+            nameBox.TabIndex = 3;
             // 
             // nameLabel
             // 
@@ -109,22 +109,23 @@
             // 
             idBox.Location = new Point(12, 291);
             idBox.Name = "idBox";
+            idBox.ReadOnly = true;
             idBox.Size = new Size(60, 27);
-            idBox.TabIndex = 9;
+            idBox.TabIndex = 2;
             // 
             // priceBox
             // 
             priceBox.Location = new Point(255, 291);
             priceBox.Name = "priceBox";
             priceBox.Size = new Size(65, 27);
-            priceBox.TabIndex = 10;
+            priceBox.TabIndex = 4;
             // 
             // refreshButton
             // 
             refreshButton.Location = new Point(127, 10);
             refreshButton.Name = "refreshButton";
             refreshButton.Size = new Size(75, 36);
-            refreshButton.TabIndex = 11;
+            refreshButton.TabIndex = 0;
             refreshButton.Text = "Refresh";
             refreshButton.UseVisualStyleBackColor = true;
             refreshButton.Click += refreshButton_Click;
@@ -137,7 +138,7 @@
             itemsListView.Location = new Point(12, 52);
             itemsListView.Name = "itemsListView";
             itemsListView.Size = new Size(308, 200);
-            itemsListView.TabIndex = 0;
+            itemsListView.TabIndex = 1;
             itemsListView.UseCompatibleStateImageBehavior = false;
             itemsListView.View = View.Details;
             itemsListView.SelectedIndexChanged += itemsListView_SelectedIndexChanged;
@@ -159,6 +160,7 @@
             // 
             // MainForm
             // 
+            AcceptButton = addButton;
             ClientSize = new Size(337, 424);
             Controls.Add(refreshButton);
             Controls.Add(priceBox);

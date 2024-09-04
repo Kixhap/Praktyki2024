@@ -20,6 +20,7 @@ namespace WpfUI
         private async void Window_Loaded(object sender, RoutedEventArgs e)
         {
             await _itemViewModel.LoadItemsAsync();
+            RefreshItemsListView();
         }
 
         private async void addButton_Click(object sender, RoutedEventArgs e)
@@ -28,7 +29,6 @@ namespace WpfUI
             {
                 Name = nameBox.Text,
                 Price = decimal.TryParse(priceBox.Text, out var price) ? price : 0,
-                Id = string.IsNullOrWhiteSpace(idBox.Text) ? (int?)null : int.TryParse(idBox.Text, out var id) ? id : (int?)null,
             };
 
             await _itemViewModel.AddItemAsync(newItem);
