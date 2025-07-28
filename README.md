@@ -40,4 +40,3 @@ Project objectives:
   - Handles forms and API data.
 - **Windows Forms**:
   - GUI supporting CRUD operations using the MVVM architecture.
-  - 
